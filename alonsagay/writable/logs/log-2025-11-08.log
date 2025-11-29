@@ -1,0 +1,52 @@
+CRITICAL - 2025-11-08 00:33:26 --> Class "App\Models\Employee" not found
+in APPPATH\Controllers\Main.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-11-08 00:37:42 --> Unknown column 'username' in 'field list'
+ERROR - 2025-11-08 00:37:51 --> Unknown column 'username' in 'field list'
+CRITICAL - 2025-11-08 00:37:51 --> Unknown column 'username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `network_logs` (`user_id`, `username`, `action`, `details`, `ip_address`, `mac_address`, `created_at`) VALUES (\'1\', \'Administrator\', \'Deleted Applicant ID: 4\', \'Applicant with ID 4 was deleted\', \'10.41.22.12\', \'N/A\', \'2025-11-08 00:37:51\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `network_logs` (`user_id`, `username`, `action`, `details`, `ip_address`, `mac_address`, `created_at`) VALUES (\'1\', \'Administrator\', \'Deleted Applicant ID: 4\', \'Applicant with ID 4 was deleted\', \'10.41.22.12\', \'N/A\', \'2025-11-08 00:37:51\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `network_logs` (`user_id`, `username`, `action`, `details`, `ip_address`, `mac_address`, `created_at`) VALUES (\'1\', \'Administrator\', \'Deleted Applicant ID: 4\', \'Applicant with ID 4 was deleted\', \'10.41.22.12\', \'N/A\', \'2025-11-08 00:37:51\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `network_logs` (`user_id`, `username`, `action`, `details`, `ip_address`, `mac_address`, `created_at`) VALUES (:user_id:, :username:, :action:, :details:, :ip_address:, :mac_address:, :created_at:)', [...], false)
+ 5 APPPATH\Controllers\Main.php(118): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Main.php(539): App\Controllers\Main->saveLog('Deleted Applicant ID: 4', 'Applicant with ID 4 was deleted')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->applicant_delete('4')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-11-08 00:46:29 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2025-11-08 00:46:29 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `network_logs` (`user_id`, `action`, `ip_address`, `mac_address`, `created_at`, `updated_at`) VALUES (NULL, \'Viewed Vacancy ID: 1\', \'10.41.22.75\', \'66-6f-47-ff-b7-65\', \'2025-11-08 00:46:29\', \'2025-11-08 00:46:29\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `network_logs` (`user_id`, `action`, `ip_address`, `mac_address`, `created_at`, `updated_at`) VALUES (NULL, \'Viewed Vacancy ID: 1\', \'10.41.22.75\', \'66-6f-47-ff-b7-65\', \'2025-11-08 00:46:29\', \'2025-11-08 00:46:29\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `network_logs` (`user_id`, `action`, `ip_address`, `mac_address`, `created_at`, `updated_at`) VALUES (NULL, \'Viewed Vacancy ID: 1\', \'10.41.22.75\', \'66-6f-47-ff-b7-65\', \'2025-11-08 00:46:29\', \'2025-11-08 00:46:29\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `network_logs` (`user_id`, `action`, `ip_address`, `mac_address`, `created_at`, `updated_at`) VALUES (:user_id:, :action:, :ip_address:, :mac_address:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Vacancy.php(64): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Vacancy.php(159): App\Controllers\Vacancy->saveLog('Viewed Vacancy ID: 1')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Vacancy->view('1')
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-11-08 00:46:40 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2025-11-08 00:46:40 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `network_logs` (`user_id`, `action`, `ip_address`, `mac_address`, `created_at`, `updated_at`) VALUES (\'1\', \'Viewed Vacancy ID: 3\', \'10.41.22.12\', \'N/A\', \'2025-11-08 00:46:40\', \'2025-11-08 00:46:40\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `network_logs` (`user_id`, `action`, `ip_address`, `mac_address`, `created_at`, `updated_at`) VALUES (\'1\', \'Viewed Vacancy ID: 3\', \'10.41.22.12\', \'N/A\', \'2025-11-08 00:46:40\', \'2025-11-08 00:46:40\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `network_logs` (`user_id`, `action`, `ip_address`, `mac_address`, `created_at`, `updated_at`) VALUES (\'1\', \'Viewed Vacancy ID: 3\', \'10.41.22.12\', \'N/A\', \'2025-11-08 00:46:40\', \'2025-11-08 00:46:40\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `network_logs` (`user_id`, `action`, `ip_address`, `mac_address`, `created_at`, `updated_at`) VALUES (:user_id:, :action:, :ip_address:, :mac_address:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Vacancy.php(64): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Vacancy.php(159): App\Controllers\Vacancy->saveLog('Viewed Vacancy ID: 3')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Vacancy->view('3')
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

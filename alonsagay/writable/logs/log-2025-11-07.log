@@ -1,0 +1,75 @@
+ERROR - 2025-11-07 12:16:14 --> Unknown column 'users.username' in 'field list'
+CRITICAL - 2025-11-07 12:16:14 --> Unknown column 'users.username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `network_logs`.*, `users`.`username` as `user_name`
+FROM `network_logs`
+LEFT JOIN `users` ON `users`.`id` = `network_logs`.`user_id`
+ORDER BY `network_logs`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `network_logs`.*, `users`.`username` as `user_name`
+FROM `network_logs`
+LEFT JOIN `users` ON `users`.`id` = `network_logs`.`user_id`
+ORDER BY `network_logs`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `network_logs`.*, `users`.`username` as `user_name`
+FROM `network_logs`
+LEFT JOIN `users` ON `users`.`id` = `network_logs`.`user_id`
+ORDER BY `network_logs`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `network_logs`.*, `users`.`username` as `user_name`
+FROM `network_logs`
+LEFT JOIN `users` ON `users`.`id` = `network_logs`.`user_id`
+ORDER BY `network_logs`.`id` DESC', [], false)
+ 5 APPPATH\Controllers\Main.php(572): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->NetworkLogs()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-07 12:18:30 --> Invalid file: pages/admin/network_logs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/network_logs.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/admin/network_logs', [], true)
+ 3 APPPATH\Controllers\Main.php(580): view('pages/admin/network_logs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->NetworkLogs()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-11-07 12:18:40 --> Unknown column 'users.username' in 'field list'
+CRITICAL - 2025-11-07 12:18:40 --> Unknown column 'users.username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `network_logs`.*, `users`.`username` as `user_name`
+FROM `network_logs`
+LEFT JOIN `users` ON `users`.`id` = `network_logs`.`user_id`
+ORDER BY `network_logs`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `network_logs`.*, `users`.`username` as `user_name`
+FROM `network_logs`
+LEFT JOIN `users` ON `users`.`id` = `network_logs`.`user_id`
+ORDER BY `network_logs`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `network_logs`.*, `users`.`username` as `user_name`
+FROM `network_logs`
+LEFT JOIN `users` ON `users`.`id` = `network_logs`.`user_id`
+ORDER BY `network_logs`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `network_logs`.*, `users`.`username` as `user_name`
+FROM `network_logs`
+LEFT JOIN `users` ON `users`.`id` = `network_logs`.`user_id`
+ORDER BY `network_logs`.`id` DESC', [], false)
+ 5 APPPATH\Controllers\Main.php(572): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->NetworkLogs()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-07 12:19:41 --> Invalid file: pages/admin/network_logs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/network_logs.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/admin/network_logs', [], true)
+ 3 APPPATH\Controllers\Main.php(580): view('pages/admin/network_logs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->NetworkLogs()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-07 12:23:20 --> Invalid file: pages/network_logs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/network_logs.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/network_logs', [], true)
+ 3 APPPATH\Controllers\Main.php(580): view('pages/network_logs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->NetworkLogs()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

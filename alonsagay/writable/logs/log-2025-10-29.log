@@ -1,0 +1,44 @@
+CRITICAL - 2025-10-29 12:31:48 --> Creation of dynamic property App\Controllers\Vacancy::$session is deprecated
+in APPPATH\Controllers\Vacancy.php on line 15.
+ 1 APPPATH\Controllers\Vacancy.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\Vacancy::$session is deprecated', 'APPPATH\\Controllers\\Vacancy.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Vacancy->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-29 12:34:27 --> Creation of dynamic property App\Controllers\Main::$session is deprecated
+in APPPATH\Controllers\Main.php on line 15.
+ 1 APPPATH\Controllers\Main.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\Main::$session is deprecated', 'APPPATH\\Controllers\\Main.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Main->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-29 12:37:34 --> Unclosed '{' on line 346
+in APPPATH\Controllers\Main.php on line 349.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-29 12:37:46 --> Creation of dynamic property App\Controllers\Main::$session is deprecated
+in APPPATH\Controllers\Main.php on line 15.
+ 1 APPPATH\Controllers\Main.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\Main::$session is deprecated', 'APPPATH\\Controllers\\Main.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Main->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-29 12:42:46 --> Creation of dynamic property App\Controllers\Auth::$data is deprecated
+in APPPATH\Controllers\Auth.php on line 110.
+ 1 APPPATH\Controllers\Auth.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\Auth::$data is deprecated', 'APPPATH\\Controllers\\Auth.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth->update_user()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-29 12:43:44 --> Creation of dynamic property App\Controllers\Auth::$data is deprecated
+in APPPATH\Controllers\Auth.php on line 110.
+ 1 APPPATH\Controllers\Auth.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\Auth::$data is deprecated', 'APPPATH\\Controllers\\Auth.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth->update_user()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

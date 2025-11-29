@@ -1,0 +1,90 @@
+CRITICAL - 2025-11-28 10:45:06 --> Undefined variable $session
+in APPPATH\Views\layouts\vacancy_base.php on line 81.
+ 1 APPPATH\Views\layouts\vacancy_base.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\layouts\\vacancy_base.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\vacancy_base.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/vacancy_base', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/applicant/login', [], true)
+ 6 APPPATH\Controllers\Applicant.php(12): view('pages/applicant/login')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Applicant->login()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Applicant))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-28 10:45:14 --> Undefined variable $session
+in APPPATH\Views\layouts\vacancy_base.php on line 81.
+ 1 APPPATH\Views\layouts\vacancy_base.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\layouts\\vacancy_base.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\vacancy_base.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/vacancy_base', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/applicant/login', [], true)
+ 6 APPPATH\Controllers\Applicant.php(12): view('pages/applicant/login')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Applicant->login()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Applicant))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-28 10:45:19 --> Undefined variable $session
+in APPPATH\Views\layouts\vacancy_base.php on line 81.
+ 1 APPPATH\Views\layouts\vacancy_base.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\layouts\\vacancy_base.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\vacancy_base.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/vacancy_base', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/applicant/login', [], true)
+ 6 APPPATH\Controllers\Applicant.php(12): view('pages/applicant/login')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Applicant->login()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Applicant))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-28 10:54:41 --> Call to undefined function set_value()
+in APPPATH\Views\pages\applicant\register.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/applicant/register', [], true)
+ 4 APPPATH\Controllers\Applicant.php(17): view('pages/applicant/register')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Applicant->register()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Applicant))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-28 10:54:51 --> Call to undefined function set_value()
+in APPPATH\Views\pages\applicant\register.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/applicant/register', [], true)
+ 4 APPPATH\Controllers\Applicant.php(17): view('pages/applicant/register')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Applicant->register()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Applicant))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-28 10:54:55 --> Call to undefined function set_value()
+in APPPATH\Views\pages\applicant\register.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/applicant/register', [], true)
+ 4 APPPATH\Controllers\Applicant.php(17): view('pages/applicant/register')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Applicant->register()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Applicant))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-28 11:01:04 --> Class "App\Models\ApplicantModel" not found
+in APPPATH\Controllers\Applicant.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Applicant->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-28 11:01:26 --> Class "App\Controllers\ApplicantUser" not found
+in APPPATH\Controllers\Applicant.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Applicant->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-28 11:01:50 --> Class "App\Controllers\ApplicantUserModel" not found
+in APPPATH\Controllers\Applicant.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Applicant->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-28 11:30:54 --> Class "App\Models\ApplicantsModel" not found
+in APPPATH\Controllers\Applicant.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Applicant->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
